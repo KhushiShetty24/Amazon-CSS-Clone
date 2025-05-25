@@ -306,3 +306,66 @@ h2{
     width: 32%; 
     margin: 3px;
 }
+
+
+/* Styles for footer */
+.footer {
+    background-color: #232F3E;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.footer-top {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3A4553;
+}
+
+.back-to-top {
+    color: #00A8E1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin: 6px 0;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background-color: #131A22;
+    font-size: 12px;
+    color: #aaa;
+}
